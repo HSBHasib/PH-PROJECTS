@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+/* Shered Style */
+.font-work-sans {
+  font-family: work sans;
+  font-optical-sizing: auto;
+}
+
+.btn {
+    padding: 20px 26px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F15B22;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.349);
+}
+
+/* Main style */
+
+/* Header | Hero-Container */
+header {
+    /* background: url("../assets/images/banner/banner1.png");  | For Multiple Image Uses */
+    background-image: url("../assets/images/banner/banner1.png");
+    background-size: cover;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: end;
+    padding: 216px 230px 166px 845px;
+}
+
+.hero-container h1 {
+    max-width: 525px;
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.hero-container p {
+    max-width: 494px;
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+/* About Section */
+
