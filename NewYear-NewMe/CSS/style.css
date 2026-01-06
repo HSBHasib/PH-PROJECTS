@@ -22,6 +22,14 @@
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.349);
 }
 
+.content-pd {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
 /* Main style */
 
 /* Header | Hero-Container */
@@ -54,5 +62,95 @@ header {
     margin-bottom: 32px;
 }
 
+
+
+
 /* About Section */
+#about {
+    padding: 130px 0;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+
+.about-container .about-content-img img {
+    max-width: 569px;
+}
+
+.about-content {
+    max-width: 416px;
+}
+
+.about-content h3 {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 42px;
+    margin-bottom: 24px;
+}
+
+.about-content #p {
+    max-width: 416px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.about-content .about-content-tips p {
+    max-width: 416px;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.currect-icon {
+    color: #16D887;
+    width: 24px;
+}
+
+
+
+/* Plan Section */
+#plan {
+    padding: 130px 0 135px 0;
+    text-align: center;
+}
+
+.plan-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#plan .text-center h2 {
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 55px;   
+}
+
+.plan-container 
+.plan-content 
+.plan-comtent-img 
+img {
+    max-width: 92.96px;
+}
+
+.plan-container 
+.plan-content h4 {
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.plan-container 
+.plan-content p {
+    font-size: 25px;
+    color: #737272;
+    font-weight: 500;
+
+}
+
 
