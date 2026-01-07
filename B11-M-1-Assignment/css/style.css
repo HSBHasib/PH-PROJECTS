@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}
+
+.font-fira-sans {
+    font-family: Fira Sans;
+    font-optical-sizing: auto;
+}
+
+/* Shered Style */
+.sec-center {
+    width: 92%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+/* Main Style */
+
+/* Header Section | Navber */
+header {
+    
+}
+
+nav {
+    padding-top: 25px;
+    background-color: #F5F5F5;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container .logo h2 {
+    font-size: 28px;
+    color: #0E0E0E;
+
+}
+
+.nav-container .sign-btn {
+    padding: 12px 26px;
+    border: 1.5px solid #006A50;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Hero Section */
+
+
+
+
+
+
+
