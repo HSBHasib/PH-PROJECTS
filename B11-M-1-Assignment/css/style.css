@@ -108,7 +108,7 @@ header {
 /* Main Section | Section Pillar */
 
 
-.pillars-content {
+.pillars-content, .vision-content {
     display: flex;
     justify-content: space-between;
 }
@@ -121,19 +121,19 @@ header {
     background-color: #FFF;
 }
 
-.pillars-card .light-img img {
+.light-img img {
     max-width: 50px;
     margin-bottom: 18px;
 }
 
-.pillars-card h5 {
+.cards h5 {
     font-size: 18px;
     color: #0E0E0E;
     margin-bottom: 18px;
     margin-bottom: 8px;
 }
 
-.pillars-card p {
+.cards p {
     font-size: 14px;
     color: #0E0E0E80;
     line-height: 24px;
@@ -141,3 +141,80 @@ header {
 
 
 
+/* Vision Section */
+.vision-content .cards {
+    max-width: 370px;
+    padding: 28px;
+    margin-bottom: 25px;
+    
+}
+
+.vision-content .vision-card-1 {
+    background-color: #D5E1F5;
+}
+
+.vision-content .vision-card-2 {
+    background-color: #C6E4D6;
+}
+
+.vision-content .vision-card-3 {
+    background-color: #F7EBCF;
+}
+
+#vision .intro-text p {
+    font-size: 14px;
+    color: #0E0E0E80;
+    margin-bottom: 25px;
+} 
+
+.vision-content .cards p {
+    margin-bottom: 40px;
+}
+
+.vision-content .vision-card-2 p{
+    margin-bottom: 63px;   /* Margin | Check Here */
+}
+
+.vision-btn1 .btn {
+    background-color: #5490F5;
+}
+
+.vision-btn2 .btn {
+    background-color: #09A15C;
+}
+
+.vision-btn3 .btn {
+    background-color: #FFC239;
+}
+
+/* Vision-Text-Content Section */
+.vision-text-content {
+    background: url("../assets/quote-bg.png") , #FFF;
+    background-repeat: no-repeat;
+    background-position: 30px 20px;
+    border-radius: 16px;
+}
+
+.vt-container {
+   padding: 45px 28px 30px;
+}
+
+.vision-text p {
+   color: #3E3E3E;
+   line-height: 24px;
+   margin-bottom: 10px;
+   font-size: 15px;
+}
+
+
+.vision-text h3 {
+    color: #3E3E3E;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.vision-text-2 p {
+   color: #3E3E3E;
+   line-height: 24px;
+   margin-bottom: 10px;
+}
