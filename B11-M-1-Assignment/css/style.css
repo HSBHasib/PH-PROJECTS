@@ -33,7 +33,7 @@ main, #vision, #opinion {
 
 .intro-text h2 {
     font-size: 30px;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 
@@ -218,3 +218,51 @@ header {
    line-height: 24px;
    margin-bottom: 10px;
 }
+
+
+
+/* Opinion Section */
+.opinion-content {
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 16px;
+}
+
+.opinion-box {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+    border: 1.5px solid rgba(128, 128, 128, 0.313);
+}
+
+.opinion-box p {
+    color: #0E0E0E;
+    font-size: 15px;
+    font-weight: 600;     
+}
+
+.op-btn {
+    padding: 12px 14px;
+    background-color: #C6E4D6;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: #0E0E0E;
+    font-weight: 500;
+}
+
+.opinion-content .op-box1 {
+    background-color: #C6E4D6;
+}
+
+
+.op-box2 , .op-box3, .op-box4 {
+    border-top: none;
+}
+
+
+/* .border {
+    border: 1px solid rgba(128, 128, 128, 0.495);  
+} */
+
+
