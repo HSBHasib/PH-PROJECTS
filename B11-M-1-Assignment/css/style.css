@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F5F5F5;
 }
 
 .font-fira-sans {
@@ -17,16 +16,23 @@
     margin: 0 auto;
 }
 
+.btn {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 
 /* Main Style */
 
+
+
 /* Header Section | Navber */
 header {
-    
-}
-
-nav {
     padding-top: 25px;
     background-color: #F5F5F5;
 }
@@ -54,7 +60,39 @@ nav {
 }
 
 /* Hero Section */
+#hero {
+    padding-top: 38px;
+}
 
+.hero-container {
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 45px;
+    
+}
+
+.hero-container .hero-content {
+    max-width: 490px;
+}
+
+.hero-container .hero-content h5{
+    font-size: 17px;
+    color: #0E0E0E50;
+    margin-bottom: 10px;
+}
+
+.hero-container .hero-content h2{
+    font-size: 46px;
+    color: #0E0E0E;
+    margin-bottom: 16px;
+}
+
+.hero-container .hero-img img {
+    max-width: 430px;
+}
 
 
 
